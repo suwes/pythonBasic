@@ -48,6 +48,7 @@ data_float = float(data_str) # cstringnya harus  angka
 data_bool = bool(data_str) # casting data diawali dengan tipe data
 print("data int = ",data_int," bertipe = ",type(data_int))
 print("data float = ",data_float," bertipe = ",type(data_float))
+# akan false jika stringnya kososng
 print("data bool = ",data_bool," bertipe = ",type(data_bool))
 
 
