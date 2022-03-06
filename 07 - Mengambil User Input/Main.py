@@ -18,6 +18,7 @@ data_angka_float = float(input("masukan data angka = "))
 
 print("data = ", data_angka_float, " tipe = ", type(data_angka_float))
 
+
 # untuk mengambil data boolean
 # kita harus mengkasting lagi input yang dimasukan kedlam integer
 # karena kalo string udah pasti true
