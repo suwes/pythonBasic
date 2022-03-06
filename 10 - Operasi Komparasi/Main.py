@@ -39,12 +39,14 @@ y = 5
 z = 10
 
 # mari kita lihat id address masing masing object x dan y
+
 print(hex(id(x)))
 print(hex(id(y)))
+
 # jika literalnya sama maka adressnya sama
 # jadi kita bisa menggunakan literal yang sama pada object yang berbeda
 
-hasil = x is y 
+hasil = x is int(float(5))
 print("hasil x = y =", hasil)
 
 hasil = x is not z 
